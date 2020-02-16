@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-cookie-fetch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node fetch meet cookie.",
   "homepage": "https://github.com/afeiship/next-cookie-fetch",
   "author": {
@@ -34,7 +34,7 @@
     "yargs": "^15.1.0"
   },
   "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.0",
+    "@feizheng/next-js-core2": "^2.4.1",
     "fetch-cookie": "^0.7.3",
     "node-fetch": "^2.6.0",
     "tough-cookie": "^3.0.1"
