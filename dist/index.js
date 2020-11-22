@@ -3,7 +3,7 @@
  * description: Node fetch meet cookie.
  * homepage: https://github.com/afeiship/next-cookie-fetch
  * version: 1.0.0
- * date: 2020-11-22 17:44:11
+ * date: 2020-11-22 17:45:32
  * license: MIT
  */
 
