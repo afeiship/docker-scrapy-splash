@@ -1,9 +1,9 @@
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var nodeFetch = require('node-fetch');
   var tough = require('tough-cookie');
-  var fetch = require('fetch-cookie')(nodeFetch, new tough.CookieJar());;
+  var fetch = require('fetch-cookie')(nodeFetch, new tough.CookieJar());
 
   nx.cookieFetch = fetch;
 

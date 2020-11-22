@@ -1,18 +1,18 @@
 /*!
- * name: @feizheng/next-cookie-fetch
+ * name: @jswork/next-cookie-fetch
  * description: Node fetch meet cookie.
- * url: https://github.com/afeiship/next-cookie-fetch
+ * homepage: https://github.com/afeiship/next-cookie-fetch
  * version: 1.0.0
- * date: 2020-01-05 20:40:02
+ * date: 2020-11-22 17:44:11
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var nodeFetch = require('node-fetch');
   var tough = require('tough-cookie');
-  var fetch = require('fetch-cookie')(nodeFetch, new tough.CookieJar());;
+  var fetch = require('fetch-cookie')(nodeFetch, new tough.CookieJar());
 
   nx.cookieFetch = fetch;
 
@@ -20,5 +20,3 @@
     module.exports = nx.cookieFetch;
   }
 })();
-
-//# sourceMappingURL=next-cookie-fetch.js.map
