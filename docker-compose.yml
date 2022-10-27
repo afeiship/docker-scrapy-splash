@@ -1,8 +1,8 @@
 version: '3'
-name: 'docker-scrapy-splash'
 services:
   app:
     image: 'scrapinghub/splash'
+    container_name: 'splash'
     ports:
       - '8050:8050'
     volumes:
