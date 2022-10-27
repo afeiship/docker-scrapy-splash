@@ -2,4 +2,9 @@ version: 3
 name: 'docker-scrapy-splash'
 services:
   app:
-    image: 'scrapy-splash'
+    image: 'scrapinghub/splash'
+    ports:
+      - '8050:8050'
+    volumes:
+      - './data/splash:/etc/splash' # splash configuration
+      - './data/scripts:/scripts' # scripts to be executed by splash
