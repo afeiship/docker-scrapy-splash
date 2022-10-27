@@ -1,0 +1,5 @@
+version: 3
+name: 'docker-scrapy-splash'
+services:
+  app:
+    image: 'scrapy-splash'
